@@ -6,7 +6,7 @@ Ce projet vise à recenser et visualiser l'évolution historique des communes po
 
 ## 🧠 Contexte
 
-Depuis la Révolution française, les communes ont connu de nombreuses évolutions : fusions, changements de nom, disparitions, transferts de département… Ces transformations sont listées sur Wikipedia, mais difficilement exploitables de manière intuitive. Ce projet a pour but de structurer ces informations dans des fichiers JSON et de les rendre consultables via une application web développée en React et Python.
+Depuis la Révolution française, les communes ont connu de nombreuses évolutions : fusions, changements de nom, disparitions, transferts de département… Ces transformations sont listées sur Wikipedia, mais difficilement exploitables de manière intuitive. Ce projet a pour but de structurer ces informations dans des fichiers JSON et de les rendre consultables via une application web développée en TypeScript coté visuel et Python pour le scraping.
 
 ## ⚙️ Fonctionnalités
 
@@ -22,7 +22,7 @@ Depuis la Révolution française, les communes ont connu de nombreuses évolutio
 |-------------------------|--------------------------------------|
 | `Python`                | Scraping (BeautifulSoup), génération de fichiers JSON |
 | `JSON`                  | Format de stockage des données       |
-| `React` + `TypeScript`  | Application frontend                 |
+| `TypeScript`            | Application frontend                 |
 | `Leaflet.js`            | Carte interactive                    |
 | `HTML/CSS`              | Interface utilisateur                |
 | `API Géo`               | Données officielles des communes     |
